@@ -1,0 +1,24 @@
+Package: mBoost
+Type: Package
+Title: The structure improvement and train-test similarity evaluation in mBoost.
+Version: 0.9
+Authors@R: c(
+    person(
+      given = "Baining",
+      family = "Shen",
+      email = "baining08042@outlook.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: Implemented the calculation method for the model structure improvement index in the model evaluation framework mBoost,
+    as well as the calculation of the similarity measurement index CR for the training and testing sets.
+Encoding: UTF-8
+License: GPL-2 | GPL-3
+Depends: R (>= 3.1.1)
+Imports: 
+    Rcpp (>= 0.12.3),
+    parallel,
+    stats,
+    Rtsne
+LinkingTo: Rcpp
+RoxygenNote: 7.3.2
