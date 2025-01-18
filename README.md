@@ -1,6 +1,6 @@
 # mBoost
 
-**mBoost** is a statistical framework designed to comprehensively evaluate the performance of predictive models, focusing on their optimality during training and their applicability to new datasets. This package implemented the evaluation metric \( p_s \) for structure improvement and the train-test dataset similarity metric Coverage Ratio(CR). For structure improvement evaluation, we support the continuous or binary phenotypes.
+**mBoost** is a statistical framework designed to comprehensively evaluate the performance of predictive models, focusing on their optimality during training and their applicability to new datasets. This package implemented the evaluation metric $ p_s $ for structure improvement and the train-test dataset similarity metric Coverage Ratio(CR). For structure improvement evaluation, we support the continuous or binary phenotypes.
 
 ## Installation
 
@@ -13,7 +13,7 @@ devtools::install_github("Lingning927/mBoost")
 ```
 
 ## Using mBoost
-Determine whether the model structure can be improved. If \( p_s < 0.05 \), we need to use more complex model.
+Determine whether the model structure can be improved. If $ p_s < 0.05 $, we need to use more complex model. Here are two examples for continuous and binary phenotypes.
 ```r
 library("mBoost")
 
