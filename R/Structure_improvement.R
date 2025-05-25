@@ -27,7 +27,7 @@ MAC <- function(X, Y, X2, Y2, k = NULL) {
     Y2 <- as.matrix(Y2, ncol = 1)
   }
   n <- dim(X)[1]
-  m <- dim(X2)[2]
+  m <- dim(X2)[1]
   if(is.null(k)) {
     k <- n
     list_i <- seq(1, n)
